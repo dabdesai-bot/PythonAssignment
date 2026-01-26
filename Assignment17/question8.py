@@ -1,0 +1,13 @@
+def Pattern(n):
+    for i in range(1,n+1):
+        for j in range(1,i+1):
+            print(j,end=" ")
+        print()
+
+def main():
+    a=0
+    a=int(input("Enter the number"))
+    Pattern(a) 
+
+if __name__ =="__main__":
+    main()   
